@@ -77,7 +77,7 @@ pip install -r requirements.txt
 Desde la carpeta frontend/:
 cd frontend
 npm install
-npm run dev   # o npm start dependiendo del script configurado
+npm start # o npm run dev dependiendo del script configurado
 
 ✅ Recomendaciones
 Usa main cuando necesites que el backend y frontend trabajen juntos.
