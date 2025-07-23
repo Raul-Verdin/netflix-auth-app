@@ -55,6 +55,25 @@ git checkout main        # Ver todo el proyecto
 git checkout backend     # Trabajar solo en backend
 git checkout frontend    # Trabajar solo en frontend
 
+✅ GUARDAR CAMBIOS en GitHub
+
+1. 🧭 Asegúrate de estar en la raíz del proyecto
+
+2. ✅ Verifica en que rama estas
+git branch
+
+3. 📦 Verifica los archivos modificados
+git status
+
+4. ➕ Agrega todos los cambios
+git add .
+
+5. 📝 Haz el commit
+git commit -m "Que cambios hiciste"
+
+6. 🚀 Sube tus cambios a GitHub
+git push origin main
+
 ---
 
 🐍 Configurar el entorno virtual (solo backend)
