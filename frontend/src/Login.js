@@ -11,8 +11,8 @@ const Login = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         const url = isRegistering
-            ? 'http://localhost:8000/api/register/' // endpoint para registro
-            : 'http://localhost:8000/api/login/'; // endpoint para login
+            ? 'http://localhost:8000/api/users/register/' // endpoint para registro
+            : 'http://localhost:8000/api/users/login/'; // endpoint para login
         
         try {
             const response = await axios.post(url, {
