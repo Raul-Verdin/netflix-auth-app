@@ -61,6 +61,9 @@ git checkout frontend    # Trabajar solo en frontend
 
 2. ✅ Verifica en que rama estas
 git branch
+#si no cambia de rama
+git checkout backend # Si eres el de backend
+git checkout frontend # Si eres el de frontend
 
 3. 📦 Verifica los archivos modificados
 git status
@@ -72,6 +75,7 @@ git add .
 git commit -m "Que cambios hiciste"
 
 6. 🚀 Sube tus cambios a GitHub
+# Despues de origin debe ir el nombre de tu rama
 git push origin main
 
 ---
